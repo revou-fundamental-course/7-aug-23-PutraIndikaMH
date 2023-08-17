@@ -1,0 +1,101 @@
+body{
+    background-image: url(../assets/background.img.sky.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    font-family: u=system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+header{
+    background-color: #8696FE;
+    border: 2px  solid #4942E4;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #11009E;
+    }
+.imgmain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p{
+    font-size:large;
+    color:  #FFCDA8;
+  }
+
+ #p1{
+    color:black;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+ }
+ h2{
+    text-align: center;
+    color:  #11009E;
+ }
+
+ .input-section{
+    display: flex;
+    flex-direction: column;
+ }
+ label{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #11009E;
+ }
+ input{
+    padding: 8px;
+    border: 2px solid #4942E4;
+    border-radius: 10px;
+    font-size: 16px;
+    outline:none;
+ }
+ input:focus{
+    background-color:  #C4B0FF;
+    border-color: #11009E;
+ }
+ 
+ .hitungBtn{
+    text-align: center;
+ }
+ .resetBtn{
+    text-align: right;
+ }
+ button{
+    padding: 10px 20px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 16px;
+    border:none;
+    cursor:pointer;
+    box-shadow: 0 9px #999;
+    color: #EEEDED;
+    background-color: #11009E;
+ }
+ .reset-button{
+    color: #EEEDED;
+    background-color: #F2BE22;
+
+ }
+ button:hover{
+    background-color: #001C30;
+}
+ button:active {
+    background-color: #001C30;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#sisi1-input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
